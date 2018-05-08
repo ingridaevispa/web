@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Jūsų informacija</p>
+      <form>
+        Vardas:<input type="text" name="vardas"><br/>
+        Pavardė:<input type="text" name="pavarde">
+    <p>Klausimai</p>
+    <p>Kaip sužinojai apie mus:</p>
+      <select name="kaipsuzinojai">
+          <option value="google">google</option>
+          <option value="facebook">facebook</option>
+          <option value="instagram">instagram</option>
+      </select>
+    <p>Ar apsilankysite vėl?</p>
+          <input type="radio" name="apsilankymas" value="taip"> Taip
+          <input type="radio" name="apsilankymas" value="ne"> Ne
+          <input type="radio" name="apsilankymas" value="galbut"> Galbūt
+    <p>Ką manote apie kursą?</p>
+          <textarea name="nuomone" rows="5" cols="70">Rašykite viską ką galvojate</textarea>
+    <p>Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę </p>
+          <input type="checkbox" name="kalbos" value="c">C#
+          <input type="checkbox" name="kalbos" value="java">JAVA
+          <input type="checkbox" name="kalbos" value="php">PHP<br>
+          <input type="checkbox" name="kalbos" value="html">HTML
+          <input type="checkbox" name="kalbos" value="css">CSS
+          <input type="checkbox" name="kalbos" value="javascript">Javascript<br>
+          <input type="checkbox" name="kalbos" value="phyton">Phyton
+          <input type="checkbox" name="kalbos" value="ruby">Ruby
+    <br>
+    <br>
+          <input type="submit" name="siusti" value="Siųsti">
+      </form>
+  </body>
+</html>
