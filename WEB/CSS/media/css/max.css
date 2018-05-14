@@ -1,0 +1,9 @@
+  .container img {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  body {
+    background-color: blue;
+  }

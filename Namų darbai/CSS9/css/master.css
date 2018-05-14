@@ -1,0 +1,29 @@
+.manosvetaine {
+  border: 1px solid grey;
+  width: 1020px;
+  margin: 5px;
+  padding: 10px;
+}
+.pirmasstraipsnis {
+  border: 1px solid grey;
+  width: 1020px;
+  margin: 5px;
+  padding: 10px;
+}
+.straipsniai {
+  border: 1px solid grey;
+  width: 500px;
+  float: left;
+  margin-right: 13px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.susisiekite {
+  clear: left;
+  border: 1px solid grey;
+  margin: 5px;
+  width: 1020px;
+  padding: 10px;
+}

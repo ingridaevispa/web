@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      form {
+        background-color: #fff6a3;
+        width: 800px;
+      }
+      table {
+        background-color: #c2ffbd;
+        width: 800px;
+        border-collapse: collapse;
+      }
+      tr {
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+      }
+      th {
+        background-color: #c7b8ff;
+        padding: 10px;
+      }
+      td {
+        border: 2px solid black;
+        padding: 10px;
+      }
+      #kitoks {
+          background-color: #c2ffbd;
+          width: 800px;
+          margin: 5px 0 0 0;
+      }
+      .zalias {
+          padding: 20px;
+          background-color:#c2ffbd;
+          width: 800px;
+          margin-top: 5px;
+      }
+      .geltonas {
+          padding: 20px;
+          background-color:#fff6a3;
+          width: 800px;
+          margin-top: 5px;
+      }
+        input[type=text] {
+          width: 400px;
+          padding: 12px;
+          border-radius: 4px;
+          margin-bottom: 5px;
+      }
+        input[type=submit] {
+          width: 600px;
+          padding: 12px;
+          border-radius: 4px;
+          margin-bottom: 5px;
+      }
+        #pirmas {
+          margin-left: 120px;
+      }
+        #antras {
+          margin-left: 112px;
+      }
+        #trecias {
+          margin-left: 43px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registracija į renginį</h1>
+    <div class="geltonas">
+    <form>
+      <h2>Registracijos forma</h2>
+      <p>Jeigu norite užsiregistruoti į renginį, užpildykite žemiau esančią formą. Žemiau lentelėje galite matyti jau užsiregistravusius dalyvius.</p>
+      Vardas: <input id="pirmas" type="text" name="Vardas"><br>
+      Pavardė: <input id="antras" type="text" name="Pavarde"><br>
+      Elektroninis paštas: <input id="trecias" type="text" name="pastas">   <br>
+      <input type="submit" name="submit" value="Registruoti">
+    </form>
+    </div>
+    <div class="zalias">
+      <h2 id="kitoks">Jau užsiregistravę dalyviai:</h2><br>
+      <table>
+        <tr>
+          <th>Vardas</th>
+          <th>Pavardė</th>
+          <th>Elektronis paštas</th>
+        </tr>
+        <tr>
+          <td>Jonas</td>
+          <td>Jonaitis</td>
+          <td>jonaitis@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Petras</td>
+          <td>Petraitis</td>
+          <td>petraitis@gmail.com</td>
+        </tr>
+    </table>
+    </div>
+  </body>
+</html>

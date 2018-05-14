@@ -1,0 +1,14 @@
+.box {
+  height: 100px;
+  width: 200px;
+  /* border: 1px solid black; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: visible; */
+  overflow-y: scroll;
+}
+.border {
+  border-style: double;
+  border-width: 2px;
+  border-color: green;
+}
